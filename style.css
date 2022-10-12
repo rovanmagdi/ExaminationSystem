@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(rgba(10, 180, 180, 1),rgb(177, 7, 134));
+  background-repeat: no-repeat;
+  
+}
+
+.signupSection {
+
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 700px;
+  text-align: center;
+  display: flex;
+  color: white;
+  box-shadow: 3px 10px 20px 2px rgba(121, 120, 120, 0.5);
+}
+
+#spanchar
+{
+  display: none;
+  color: red;
+}
+.info {
+  width: 70%;
+  background: rb;
+  padding: 10px 0;
+  background: url(samantha-borges-q3zZHY5GHu0-unsplash.jpg);
+  background-size: cover;
+  /* border-right: 5px solid rgba(30, 30, 30, .8); */
+}
+ .info img {
+    padding-top: 200px;
+    font-weight: 700;
+    width: 45%;
+  }
+  
+
+.signupForm {
+  width: 70%;
+  padding: 30px 0;
+  /* background: rgba(139, 179, 162, 0.541); */
+  transition: .2s;
+}
+  .signupForm h2 {
+    font-weight: 900;
+    color: rgb(1, 100, 104);
+    font-size: xx-large;
+  }
+
+
+.inputFields {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid rgb(1, 100, 104);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* background: rgba(20, 20, 20, .2); */
+  outline: none;
+}
+
+.noBullet {
+  list-style-type: none;
+  padding: 0;
+}
+
+#join-btn {
+  border: 1px solid rgb(1, 100, 104);
+  background: rgb(1, 100, 104);
+  font-size: 18px;
+  color: white;
+margin: 20px;
+padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  transition: width 1s;
+  border-radius: 20px;
+ 
+}
+#join-btn:hover
+{
+  
+   width: 130px;
+
+}
+#spanemail,#span
+{
+    color: red;
+    display: none;
+}
+#spanpass
+{
+  color: red;
+  display: none;
+}
+
+.panel-1
+{
+  /* background-repeat: no-repeat; */
+  position: absolute;
+   /* width: 100px; */
+  height: 700px;
+  /* text-align: center; */
+  display: flex;
+  /* align-items:flex-end; */
+  justify-content:space-around;
+
+  /* color: white; */
+  /* box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5); */
+ /* transform: translateX(0px); */
+/* margin-top: 10px;   */
+}
+.result-1
+{
+  
+  /* background: rgb(1, 122, 82,0.3); */
+  width: 1250px
+  
+}
+.panel
+{
+ 
+  background-repeat: no-repeat;
+  position: absolute;
+   width: 1300px;
+  height: 700px;
+  display: flex;
+  color: rgb(1, 100, 104);
+  /* box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5); */
+ transform: translateX(120px);
+margin-top: 10px;
+}
+.panel h1{
+  text-align: center;
+ font-weight: 900;
+ font-size:5ch;
+
+
+}
+
+.panel #res{
+ margin-top: 200px;
+ text-align: center;
+ font-size:10ch;
+ font-weight: bold;
+}
+.result
+{
+  
+  /* background: rgb(1, 122, 82,0.3); */
+  width: 1400px;
+  
+}
+.result2
+{
+  /* width: 300px; */
+  padding-left: 10px;
+display: flex;
+justify-content:flex-end;
+align-items:flex-start;
+  background-color: rgba(85, 85, 85, 0.199);
+  display: block;
+  width: 300px;
+  height:800px;
+  
+}
+
+.question-container-1
+
+{
+  /* border-bottom: 2px solid rgb(1, 122, 82); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  background-color: rgb(1, 100, 104);
+}
+
+.grid
+{
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+}
+
+.grid #question
+{
+  font-family: sans-serif;
+  font-size: 30px;
+  height: 100px;
+  /* color: ; */
+}
+
+.buttons
+{
+  margin-top: 30px;
+
+}
+#btn0,#btn1,#btn2,#btn3
+{
+
+  width: 250px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+  border: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+#markFlag
+{
+  background-color: rgb(1, 100, 104);
+  border-radius: 50%;
+  /* padding: 10px; */
+  border: none;
+  color: white;
+  font-size: x-large;
+  /* margin-left: 600px; */
+  cursor: pointer;
+  
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus
+{
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(1, 100, 104);
+  color: white;
+}
+
+
+#next,#prev
+{
+    background-color: rgb(1, 100, 104);
+    width: 100px;
+    font-size: 20px;
+    color:#fff;
+    border: 1px solid white;
+    border-radius: 50px;
+   
+    cursor: pointer;
+}
+
+#submit
+{
+  background-color: rgb(1, 100, 104);
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
+    border: 1px solid rgb(1, 100, 104);
+    border-radius: 50px;
+margin-top: 45px;
+margin-left: 550PX;
+    padding: 10px;
+
+    cursor: pointer; 
+}
+.buttons2
+{
+/* background-color: rgb(1, 100, 104); */
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 50px;
+/* padding: 100px; */
+width: 250px;
+margin-left: 150px;
+margin-top: 140px;
+
+}
+#progress
+{
+color: white;
+font-size: 20px;
+font-weight: bold;
+background-color: rgb(1, 100, 104);
+/* padding-top: 5px; */
+width: 40px;
+   height: 37px;
+   text-align: center;
+   margin-left: 280px;
+}
+
+#delete,#go
+{
+  background-color: rgb(1, 100, 104);
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  margin-left: 30px;
+  color: white;
+  border-radius: 20px;
+}
+#delete:hover,#go:hover
+{
+color: rgb(1, 122, 82);
+background-color: white;
+}

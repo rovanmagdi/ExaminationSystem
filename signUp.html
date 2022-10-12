@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+    integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+    integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="signupSection">
+    <div class="info">
+      
+<!-- <img src="follow.png" alt="" srcset=""> -->
+    </div>
+    <form action="logIn.html" class="signupForm" onsubmit="return validation()">
+      <h2>Registration</h2>
+      <ul class="noBullet">
+        <li>
+          <label for="username"></label>
+          <input type="text" class="inputFields" id="firstname" name="username" placeholder="First Name"  pattern="[A-Za-z]+">
+            
+        </li>
+        <li>
+          <label for="username"></label>
+          <input type="text" class="inputFields" id="lastname" name="username" placeholder="Last Name" pattern="[A-Za-z]+" />
+        
+
+        </li>
+        <li>
+          <label for="email"></label>
+          <input type="email" class="inputFields" id="email" name="email" placeholder="Email" />
+        </li>
+        <li>
+
+          <label for="password"></label>
+          <input type="password" class="inputFields" id="password" name="password" placeholder="Password" /><br/>
+          <span style="display: none; color: red;" id="char"> must at least 8 character</span>
+        </li>
+        <li>
+
+          <label for="password"></label>
+          <input type="password" class="inputFields" id="confirm" name="confirm" placeholder="Confrim Password" />
+          <br>
+          <span id="span"> not match with password</span>
+        </li>
+        <li id="center-btn">
+          <input type="submit" id="join-btn" name="join" alt="Join" value="Sign up">
+        </li>
+      </ul>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
